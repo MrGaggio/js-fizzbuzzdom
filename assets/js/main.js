@@ -19,7 +19,5 @@ for (let i = 0; i <= 100; i++){
 }
 
 
-
-
-//creare i container ai numeri
+//Stilizzare i container
 

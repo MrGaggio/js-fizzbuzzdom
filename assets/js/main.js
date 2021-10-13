@@ -4,11 +4,22 @@
 
 
 
-
+let list = document.querySelector(' .list')
+    console.log(list);
 
 
 //Scrivi un programma che esegua un ciclo da 1 a 100
+//creare una lista all'interno della quale ci sono list items
+//visualizzare i numeri da 0 100 inseriti all'interno di un list item
 
 for (let i = 0; i <= 100; i++){
     console.log(i);
+    const element = `<li class="box"> ${i} </li>`
+    list.innerHTML += element
 }
+
+
+
+
+//creare i container ai numeri
+

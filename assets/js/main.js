@@ -12,7 +12,7 @@ let list = document.querySelector(' .list')
 //creare una lista all'interno della quale ci sono list items
 //visualizzare i numeri da 0 100 inseriti all'interno di un list item
 
-for (let i = 0; i <= 100; i++){
+for (let i = 1; i <= 100; i++){
     console.log(i);
     const element = `<li class="box"> ${i} </li>`
     list.innerHTML += element

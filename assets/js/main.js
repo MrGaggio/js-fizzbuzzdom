@@ -5,7 +5,7 @@
 
 
 let list = document.querySelector(' .list')
-let box = document.querySelector(' .box')
+let i = document.querySelector(' li.box' )
     console.log(list);
 
 
@@ -40,10 +40,15 @@ const fizzbuzz = '15, 30, 45, 60, 75, 90'
 //Se multiplo di 5 - box giallo, scritta buzz
 //Se multiplo di 15 - box rosso, scritta fizzbuzz
 
-if (box == fizz) {
+if (i == fizz) {
     box.style.backgroundColor = 'red'
-    console.log(box);
+} else if (i == buzz){
+    box.style.backgroundColor = "#F9D277"
+} else if (i == fizzbuzz){
+    box.style.backgroundColor = '#DE5471'
 }
+    
+
 
 
 

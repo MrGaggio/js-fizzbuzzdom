@@ -18,6 +18,11 @@ for (let i = 1; i <= 100; i++){
     list.innerHTML += element
 }
 
+//Stilizzare i container .. fatto in parte
 
-//Stilizzare i container
+//I deve essere verde ogni 3 (#61D2A4)
+//I deve essere giallo ogni 5 (#F9D277)
+//i deve essere rosso ogni 15 (#DE5471)
+
+
 

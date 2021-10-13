@@ -4,9 +4,21 @@
     box-sizing: border-box;
 }
 
+main{
+    background-color: #183A4A;
+}
+h1{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 130px;
+    color: white;
+}
+
 ul {
     list-style-type: none;
 }
+
 
 .list{
     display: flex;
@@ -15,8 +27,11 @@ ul {
 }
 
 .box {
+    margin-left: 30px;
+    margin-bottom: 30px;
     text-align: center;
     line-height: 200px;
     height: 200px;
     width: 200px;
+    background-color: goldenrod;
 }

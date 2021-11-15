@@ -7,20 +7,37 @@
 main{
     background-color: #183A4A;
 }
-p{
-    padding-top: 50px;
-    padding-bottom: 100px;
-    text-align: center;
-    font-size: 8rem;
-    color: white;
-    font-weight: 700;
 
+h1{
+    color: white;
+    text-align: center;
 }
 
 ul {
     list-style-type: none;
+    
 }
 
+li{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 100px;
+    background-color: white;
+}
+
+.fizzbuzz{
+    background-color: red;
+}
+
+.buzz{
+    background-color: chartreuse;
+}
+
+.fizz{
+    background-color: purple;
+}
 
 .list{
     display: flex;
@@ -29,11 +46,5 @@ ul {
 }
 
 .box {
-    margin-left: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    line-height: 200px;
-    height: 200px;
-    width: 200px;
     background-color: #3d88ae;
 }
